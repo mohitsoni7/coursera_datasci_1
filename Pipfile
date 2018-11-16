@@ -4,10 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-numpy = "*"
-pandas = "*"
+numpy = "==1.11.3"
+pandas = "==0.19.2"
 jupyter = "*"
 xlrd = "*"
+scipy = "*"
 
 [dev-packages]
 
